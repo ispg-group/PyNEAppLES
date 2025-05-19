@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+# /// script
+# requires-python = ">=3.11"
+# dependencies = [
+#     "joblib",
+#     "numpy",
+#     "scikit-learn",
+# ]
+# ///
 """
 Program for spectra calculation using the reflection principle including error bars and other features.
 
