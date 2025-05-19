@@ -4,20 +4,20 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [
-    { name = "Hamish Ruthven", email = "nn22529@bristol.ac.uk" },
-    { name = "Felix Mac-Fall", email = "qo22303@bristol.ac.uk" },
-    { name = "Marija Miloshevka", email = "marija.miloshevska.2022@bristol.ac.uk" },
-    { name = "Nick Hardman", email = "kp22738@bristol.ac.uk" }
+    { name = "Štěpán Sršeň", email = "Stepan.Srsen@vscht.cz" },
 ]
 requires-python = ">=3.9"
-dependencies = ['numpy',
-		'matplotlib',
-		'scipy',
-		'joblib']
+dependencies = [
+    'numpy',
+    'matplotlib',
+    'scipy',
+    'joblib',
+]
 
 [project.optional-dependencies]
-dev = ["pytest ~= 7.0"]
-	
+dev = [
+    "pytest ~= 7.0"
+]
 
 [project.scripts]
 rep_sampler_2D = "rep_sampler_2D:main"
